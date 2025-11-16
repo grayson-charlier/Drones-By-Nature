@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drone By Nature - Marketplace for Drone Pilots & Content Creators</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-container">
+        <div class="nav-content">
+            <div class="nav-logo">
+                <span class="material-icons">flight</span>
+                <span class="logo-text">Drone By Nature</span>
+            </div>
+            <button class="nav-menu-button" id="mobileMenuBtn" aria-label="Toggle menu">
+                <span class="material-icons">menu</span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li class="nav-auth">
+                    <button class="btn-text" id="signInBtn">Sign In</button>
+                    <button class="btn-filled" id="signUpBtn">Sign Up</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="hero-gradient"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="material-icons">stars</span>
+                <span>Get 4.0 GB free storage for one year!</span>
+            </div>
+            <h1 class="hero-title">The Marketplace for Drone Pilots & Content Creators</h1>
+            <p class="hero-subtitle">Monetise your aerial footage. Sell your skills. Book new projects. No subscriptions. No hidden fees. Always your rights.</p>
+            <div class="hero-actions">
+                <button class="btn-filled btn-large" id="heroSignUpBtn">
+                    Get Started Free
+                    <span class="material-icons">arrow_forward</span>
+                </button>
+                <button class="btn-outlined btn-large" id="learnMoreBtn">
+                    Learn More
+                </button>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">10K+</span>
+                    <span class="stat-label">Active Pilots</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">50K+</span>
+                    <span class="stat-label">Aerial Assets</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">5K+</span>
+                    <span class="stat-label">Projects Booked</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Join Drone By Nature</h2>
+                <p class="section-subtitle">Everything you need to grow your drone business</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <span class="material-icons">cloud_upload</span>
+                    </div>
+                    <h3 class="feature-title">Sell Your Footage</h3>
+                    <p class="feature-description">Upload aerial content, set your price, and keep full ownership. Build passive income as your footage sells again and again.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <span class="material-icons">work</span>
+                    </div>
+                    <h3 class="feature-title">Get Booked for Projects</h3>
+                    <p class="feature-description">Connect with brands, agencies, and businesses who need drone pilots. Expand your network and find new opportunities.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <span class="material-icons">account_balance_wallet</span>
+                    </div>
+                    <h3 class="feature-title">Fair, Transparent Pricing</h3>
+                    <p class="feature-description">No confusing packages or subscriptions. You pay only for what you need, when you need it. You earn directly.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <span class="material-icons">trending_up</span>
+                    </div>
+                    <h3 class="feature-title">Earn More Over Time</h3>
+                    <p class="feature-description">Build passive income as your footage sells again and again. Earn loyalty rewards with every sale or booking.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">How It Works</h2>
+                <p class="section-subtitle">Simple steps to start your journey</p>
+            </div>
+            <div class="steps-container">
+                <div class="step-item">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Create Your Account</h3>
+                        <p>Sign up as a contributor or customer. It's free and takes less than a minute.</p>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Upload or Browse</h3>
+                        <p>Contributors upload their best aerial footage. Customers browse our vast library.</p>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Start Earning</h3>
+                        <p>Set your prices, get discovered, and start earning from your aerial content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-card">
+                <div class="cta-content">
+                    <h2>Ready to Get Started?</h2>
+                    <p>Join thousands of drone pilots and content creators earning from their aerial footage</p>
+                    <div class="cta-benefits">
+                        <div class="cta-benefit">
+                            <span class="material-icons">check_circle</span>
+                            <span>4.0 GB free storage for one year</span>
+                        </div>
+                        <div class="cta-benefit">
+                            <span class="material-icons">check_circle</span>
+                            <span>No subscriptions or hidden fees</span>
+                        </div>
+                        <div class="cta-benefit">
+                            <span class="material-icons">check_circle</span>
+                            <span>Full ownership of your content</span>
+                        </div>
+                    </div>
+                    <button class="btn-filled btn-large" id="ctaSignUpBtn">
+                        Sign Up Now - It's Free!
+                        <span class="material-icons">arrow_forward</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span class="material-icons">flight</span>
+                        <span>Drone By Nature</span>
+                    </div>
+                    <p class="footer-description">The marketplace for drone pilots and content creators. Monetise your aerial footage and connect with opportunities.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#terms">Terms of Use</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#cookies">Cookie Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><span class="material-icons">facebook</span></a>
+                        <a href="#" aria-label="Twitter"><span class="material-icons">alternate_email</span></a>
+                        <a href="#" aria-label="Instagram"><span class="material-icons">photo_camera</span></a>
+                        <a href="#" aria-label="LinkedIn"><span class="material-icons">business</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Drone By Nature. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal: Sign In -->
+    <div class="modal" id="signInModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Welcome Back</h2>
+                <button class="modal-close" id="closeSignInModal" aria-label="Close modal">
+                    <span class="material-icons">close</span>
+                </button>
+            </div>
+            <form class="modal-form" id="signInForm">
+                <div class="form-group">
+                    <label for="signInEmail">Email</label>
+                    <input type="email" id="signInEmail" required placeholder="Enter your email">
+                    <span class="material-icons form-icon">email</span>
+                </div>
+                <div class="form-group">
+                    <label for="signInPassword">Password</label>
+                    <input type="password" id="signInPassword" required placeholder="Enter your password">
+                    <span class="material-icons form-icon">lock</span>
+                    <button type="button" class="password-toggle" id="toggleSignInPassword">
+                        <span class="material-icons">visibility</span>
+                    </button>
+                </div>
+                <div class="form-options">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="rememberMe">
+                        <span>Remember me</span>
+                    </label>
+                    <a href="#forgot-password" class="link-text">Lost your password?</a>
+                </div>
+                <button type="submit" class="btn-filled btn-large btn-full">
+                    Sign In
+                    <span class="material-icons">arrow_forward</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal: Sign Up -->
+    <div class="modal" id="signUpModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Create Your Account</h2>
+                <button class="modal-close" id="closeSignUpModal" aria-label="Close modal">
+                    <span class="material-icons">close</span>
+                </button>
+            </div>
+            <div class="account-type-selector">
+                <button class="account-type-btn active" data-type="contributor">
+                    <span class="material-icons">camera_alt</span>
+                    <span>Become a Contributor</span>
+                    <p>Upload and sell your aerial videos/photos</p>
+                </button>
+                <button class="account-type-btn" data-type="customer">
+                    <span class="material-icons">shopping_basket</span>
+                    <span>Become a Customer</span>
+                    <p>Purchase professional aerial content</p>
+                </button>
+            </div>
+            <form class="modal-form" id="signUpForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" required placeholder="First name">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" required placeholder="Last name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="signUpEmail">Email</label>
+                    <input type="email" id="signUpEmail" required placeholder="Enter your email">
+                    <span class="material-icons form-icon">email</span>
+                </div>
+                <div class="form-group">
+                    <label for="country">Country</label>
+                    <select id="country" required>
+                        <option value="">Select a country...</option>
+                        <option value="US">United States</option>
+                        <option value="GB">United Kingdom</option>
+                        <option value="CA">Canada</option>
+                        <option value="AU">Australia</option>
+                        <!-- Add more countries as needed -->
+                    </select>
+                    <span class="material-icons form-icon">public</span>
+                </div>
+                <div class="form-group">
+                    <label for="signUpPassword">Password</label>
+                    <input type="password" id="signUpPassword" required placeholder="Create a password">
+                    <span class="material-icons form-icon">lock</span>
+                    <button type="button" class="password-toggle" id="toggleSignUpPassword">
+                        <span class="material-icons">visibility</span>
+                    </button>
+                </div>
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" required placeholder="Confirm your password">
+                    <span class="material-icons form-icon">lock</span>
+                    <button type="button" class="password-toggle" id="toggleConfirmPassword">
+                        <span class="material-icons">visibility</span>
+                    </button>
+                </div>
+                <label class="checkbox-label">
+                    <input type="checkbox" id="agreeTerms" required>
+                    <span>I agree with the <a href="#terms" class="link-text">terms and conditions</a></span>
+                </label>
+                <button type="submit" class="btn-filled btn-large btn-full">
+                    Create Account
+                    <span class="material-icons">arrow_forward</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
