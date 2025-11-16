@@ -1,4 +1,4 @@
-# Drone By Nature - Modern Material Design Website
+# Drone By Nature - Modern Material Design Redesign
 
 A modern, redesigned version of the Drone By Nature marketplace website, following Google Material Design 3 standards.
 
@@ -86,13 +86,6 @@ Edit `index.html` to update:
 - Section order
 - Links and navigation items
 
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
 ## Material Design Resources
 
 - [Material Design 3 Guidelines](https://m3.material.io/)
@@ -101,8 +94,7 @@ Edit `index.html` to update:
 
 ## License
 
-This project is a redesign demonstration. Please ensure proper licensing for production use.
-
+This project is a redesign demonstration.
 ## Notes
 
 - This is a front-end only implementation
